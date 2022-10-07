@@ -1,6 +1,5 @@
 package org.ang.tests;
 
-import org.ang.driver.Driver;
 import org.ang.driver.DriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;

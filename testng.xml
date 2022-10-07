@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" >
+    <test verbose="2"  parallel="methods" preserve-order="true" name="MyTest">
+        <classes>
+            <class name="org.ang.tests.LoginPageTests">
+<!--            <methods>-->
+<!--                <include name="test1"/>-->
+<!--                <include name="test2"/>-->
+<!--            </methods>-->
+          </class>
+            <class name="org.ang.tests.HomePageTests"></class>
+        </classes>
+    </test>
+</suite>
