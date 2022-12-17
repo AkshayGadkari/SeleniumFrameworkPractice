@@ -19,6 +19,7 @@ public class StringInt {
             nfe.printStackTrace();
         }
 
+
         System.out.println("Integer.parseInt(stri) = " + Integer.parseInt(stri));
 
 
@@ -26,6 +27,7 @@ public class StringInt {
         String is =Integer.toString(i);
 
         System.out.println(is);
+        System.out.println("ok");
 
     }
 }
